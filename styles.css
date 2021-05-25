@@ -1,0 +1,84 @@
+body{
+	background-color: #FF85AA;
+	box-sizing: border-box;
+	margin:0;
+	background-image: url(back2.jpg) ;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: fixed;
+	background-size: cover;	}
+.leftshift{
+	float: left;
+	padding: 10px 10px;
+	margin: 0 0 0 0;
+	width: 100%;
+}
+nav{
+	display: block;
+	font-size: 50px;
+	font-family: littlebrushy;
+}
+
+nav #div1{
+	box-sizing: border-box;
+	padding: 0px;
+	color:#000000;
+	background-color: #ffffff;
+	height: 90px;
+
+	
+}
+
+nav a{margin-right: 30px;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 5px;
+	display: block;
+	float: left;
+	}
+.link{
+	color:#000000;
+	top:50%;
+	padding-top: 30px;
+
+}
+.link:hover{
+	color: pink;
+}
+@font-face{
+font-family: littlebrushy;
+src:url(littlebrushy.otf)
+}
+@font-face{
+font-family: noelan;
+src:url(noelan.ttf)
+}
+@font-face{
+font-family: nickainley;
+src:url(nickainley.otf)
+}
+@font-face{
+font-family: ecosmith;
+src:url(ecosmith.otf)
+}
+@font-face{
+font-family: fusterd;
+src:url(Fusterd.otf)
+}
+.centered {
+	width: 80%;
+	height:50%;
+	top:20%;
+	left:10%;
+	position: absolute;
+	border: solid;
+	border-color: black;
+	text-align: center;
+	background: rgba(0,0,0,0.3);
+	vertical-align: 
+	}
+.cart{
+	color:#000000;
+	padding-top: 10px;
+
+}
