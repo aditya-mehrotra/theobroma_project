@@ -23,29 +23,80 @@
 .form{
 	width: 30%;
 	height: auto;
-	background-color: rgba(255,255,255,0.8);
+	background-color: rgba(255,255,255,1);
 	float: left;
 	position: absolute;
 	left: 64%;
 	top:50%;
+	border-color: black;
+	border:solid;
+	border-radius: 10px;
+	font-family: ecosmith;
+	font-size: 30px;
 }
 .product1{
 	width: 52%;
-	background: rgba(255,255,255,0.9);
+	background: rgba(255,255,255,1);
 	height: auto;
 	float: left;
 	position: absolute;
 	left: 6%;
 	top:50%;
+	border-radius: 10px;
+	border-color: black;
+	border:solid;
+
 }
 .heading{
 	text-align: center;
-	background: rgba(255,255,255,0.8);
 	position: absolute;
-	left: 40%;
+	left: 30%;
 	width: auto;
 	height: auto;
-	top:15%;
+	top:10%;
+	font-family: littlebrushy;
+	font-size: 80px;
+	color: white;
+}
+.col0{
+	float: left;
+	position: relative;
+	padding: 10px;
+}
+.col1{
+	float: left;
+	position: absolute;
+	left: 25%;
+}
+.col2{
+	float: left;
+	position: absolute;
+	left: 50%;
+
+}
+.col3{
+	float: left;
+	position: absolute;
+	left: 65%;
+	
+}
+.col4{
+	float: left;
+	position: absolute;
+	left: 85%;
+	
+}
+.row div{
+	margin-top: 40px;
+}
+.row div:nth-child(1){
+	margin-top: 0px;
+}
+.row div:nth-child(2){
+	font-size: 25px;
+}
+a{
+	text-decoration: none;
 }
 </style>
 </head>
@@ -68,10 +119,32 @@
 	<h1>Shopping Cart</h1>
 </div>
 <div class="product1">
-	<div style="float: left;">Chocolate muffins</div>
-	<div style="float: right;">$20</div><br>
-	<div style="float: left;">Qty</div>
-	<div style="float: right;">2</div>
+	<div style="font-family:ecosmith; font-size: 40px" >
+		<div class="col1">Item</div>
+		<div class="col2">Price</div>
+		<div class="col3">Quantity</div>
+		<div class="col4">Total</div>
+		<br>
+	</div>
+	<hr width=80%>
+	<div class="row"style="font-family: ecosmith; font-size: 20px;">
+		<div><img class="col0"src="product1.jpg" width=20% height=auto></div>
+		<div class="col1">Chocolate Muffins</div>
+		<div class="col2">$20</div>
+		<div class="col3"><a href="#" style="color: black;">-</a>2<a href="#" style="color: black;">+</a></div>
+		<div class="col4">$40</div>
+	<br>
+	</div>
+	<hr width=80%>
+	<div class="row" style="font-family: ecosmith; font-size: 20px;">
+		<div><img class="col0" src="product2.jpg" width=20% height=auto></div>
+		<div class="col1">Cookies</div>
+		<div class="col2">$9.9</div>
+		<div class="col3">1</div>
+		<div class="col4">$9.9</div>
+	<br>
+	</div>
+	<hr width=80%>
 </div>
 <div class="form">
 	<div style="float: left;">Sub-total</div>
